@@ -1,4 +1,4 @@
-# Pi-hole-for-Android
+# Pi-hole-for-Android (Don't use this! WiP...)
 Pi-hole for old (ARMv7) Android phones
 
 Assumptions:
