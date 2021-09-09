@@ -26,7 +26,6 @@ Assumptions:
  After installation is successful click START
  
 Your Android device's IP is shown at the top of the Linux Deploy main window.
-From your PC, open a VNC connection to your device's IP on port 5900. 
-Example: ```vncviewer.exe 10.73.0.111:5900```
+From your PC, open a web browser to the device's IP, or SSH to it on port 2222.
+Example: ```ssh -p 2222 android@10.13.12.11```
 
- 
