@@ -1,5 +1,5 @@
 # Pi-hole-for-Android
-Pi-hole for ARMv7 (2011+) Android phones 
+Pi-hole for ARMv7 (2011-) Android phones 
 
 Assumptions:
 
