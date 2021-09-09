@@ -1,4 +1,4 @@
-# Pi-hole-for-Android (Don't use this! WiP...)
+# Pi-hole-for-Android
 Pi-hole for ARMv7 (2011+) Android phones 
 
 Assumptions:
