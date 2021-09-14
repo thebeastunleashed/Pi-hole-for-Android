@@ -40,7 +40,7 @@ This customized [Linux Deploy](https://play.google.com/store/apps/details?id=ru.
         `````[HH:mm:ss] >>> :: Configuring core/launchroot ...`````
         
         `````[HH:mm:ss] >>> deploy`````
-    -  If you see an errror messages in Linux Deploy, you probably didn't enter the location of **p4a12.tar.gz** correctly.  You need to fix this before you continue.
+    -  If you see an errror message in Linux Deploy, you probably didn't enter the location of **p4a12.tar.gz** correctly.  **You need to fix this before you can continue.**
           
  - Open the 'Hamburger menu' (Three dashes at top left) and touch **Settings**
     -  Place checkmark on **Lock Wi-Fi**
