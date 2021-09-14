@@ -9,8 +9,8 @@ This customized [Linux Deploy](https://play.google.com/store/apps/details?id=ru.
 
 **Requirements:**
 
-- Android device, rooted
-- Developer Options -> Root Access -> Enabled for Apps
+- Android device that has been rooted
+- Developer Options -> Root Access -> **Enabled for Apps**
 
 **Instructions:**
 
