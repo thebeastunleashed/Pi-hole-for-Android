@@ -5,7 +5,7 @@ Pi-hole for ARMv7 (2011 and newer) Android devices.
 
 Pi-hole is a Linux network-level advertisement and Internet tracker blocking application which acts as a DNS sinkhole intended for use on a private network. It is designed for low-power embedded devices with network capability, most well-known being the Raspberry Pi.
 
-This customized Linux Deploy image works on any rooted Android device with an ARMv7 (or newer) class CPU.  This typically includes anything made in the past 10 years. Form factor is not important; it could be a phone, tablet, HDMI stick or any device running Android.
+This customized Linux Deploy image works on any rooted Android device with an ARMv7 (or newer) class CPU.  This typically includes anything made in the past 10 years. Form factor is not important; it could be a phone, tablet, HDMI stick or **any device running Android**.
 
 **Requirements:**
 
@@ -29,7 +29,7 @@ This customized Linux Deploy image works on any rooted Android device with an AR
 - Open **Linux Deploy**
      -  Open Properties Menu (Bottom Right)
      -  Distribution: **rootfs.tar**
-     -  Source Path - This varies depending on the device, ie: **${EXTERNAL_STORAGE}/Download/p4a11.tar.gz**
+     -  Source Path - This varies depending on the device, ie: **${EXTERNAL_STORAGE}/Download/p4a12.tar.gz**
      -  Set password for user **android**
      -  Init -> **Enable**
  - Go back to main window, click **Options** Menu (Three dots, top right of screen) and click **Install**
