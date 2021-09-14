@@ -1,5 +1,5 @@
-# Pi-hole-for-Android
-Pi-hole for ARMv7 (2011 and newer) Android devices.
+# Pi-hole for Android
+**Pi-hole for ARMv7 (2011 and newer) Android devices.**
 
 ![IMG_2229](https://user-images.githubusercontent.com/33142753/133272103-28c6eba3-d1f7-4e29-9c5b-7d96d9f94e9e.jpg)
 
@@ -16,23 +16,23 @@ This customized Linux Deploy image works on any rooted Android device with an AR
 
 - Open web browser on device and download+install the two APKs below.  You can also download these from the Play Store if you prefer:
 
-  - https://github.com/MrBIMC/SELinuxModeChanger/releases/download/11.0/app-release-v11.apk
-  - https://github.com/meefik/linuxdeploy/releases/download/2.6.0/linuxdeploy-2.6.0-259.apk
+  - **https://github.com/MrBIMC/SELinuxModeChanger/releases/download/11.0/app-release-v11.apk**
+  - **https://github.com/meefik/linuxdeploy/releases/download/2.6.0/linuxdeploy-2.6.0-259.apk**
 
--  Download the Pi-hole for Android disk image (v1.2 / Sept 14, 2021):
+-  Download the Pi-hole for Android disk image: (**v1.2 / Sept 14, 2021**)
 
-   - http://desktopecho.com/p4a12.tar.gz (MD5: e5b396d17b8dcf844962284aeabfa662)
+   - **http://desktopecho.com/p4a12.tar.gz** (MD5: e5b396d17b8dcf844962284aeabfa662)
 
 - Restart Phone (This is **REQUIRED!**)
 
 - Open **SElinux Mode Changer**:  Set to **Permissive** and **Automatically Start on Boot**
-- Open **Linux Deploy**
+- Open **Linux Deploy** and change ONLY these settings:
      -  Open Properties Menu (Bottom Right)
      -  Distribution: **rootfs.tar**
      -  Source Path - This varies depending on the device, ie: **${EXTERNAL_STORAGE}/Download/p4a12.tar.gz**
      -  Set password for user **android**
      -  Init -> **Enable**
- - Go back to main window, click **Options** Menu (Three dots, top right of screen) and click **Install**
+ - Go back to main window, click **Options** Menu (Three dots, usually at top right of screen) and click **Install**
      -  Wait a few minutes while CentOS installs.  
      -  Allow the install to complete before proceeding to next steps.
      -  When install is complete, the Linux Deploy console window will show the following: 
@@ -40,17 +40,15 @@ This customized Linux Deploy image works on any rooted Android device with an AR
         `````[HH:mm:ss] >>> :: Configuring core/launchroot ...`````
         
         `````[HH:mm:ss] >>> deploy`````
-         
-   
- - Open Hamburger Menu (Top Left) and touch "Settings"
-
+    -  If you see an errror messages in Linux Deploy, you probably didn't enter the location of **p4a12.tar.gz** correctly.  You need to fix this before you continue.
+          
+ - Open the 'Hamburger menu' (Three dashes at top left) and touch **Settings**
     -  Place checkmark on **Lock Wi-Fi**
     -  Place checkmark on **Autostart**
- 
 Touch the **[ > START ]** button and confirm when prompted. 
 
 -----------------------------------------------------------
-**INSTALLATION IS COMPLETE - PI-HOLE IS RUNNING ON YOUR ANDROID DEVICE!**
+**INSTALLATION COMPLETE - PI-HOLE IS RUNNING ON YOUR ANDROID DEVICE!**
 
 -----------------------------------------------------------
 Your Android device's IP is shown at the top of the Linux Deploy main window.  You can interact with the Pi-hole instance in three ways:
