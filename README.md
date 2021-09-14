@@ -45,6 +45,7 @@ This customized [Linux Deploy](https://play.google.com/store/apps/details?id=ru.
  - Open the 'Hamburger menu' (Three dashes at top left) and touch **Settings**
     -  Place checkmark on **Lock Wi-Fi**
     -  Place checkmark on **Autostart**
+    
 Touch the **[ > START ]** button and confirm when prompted. 
 
 -----------------------------------------------------------
