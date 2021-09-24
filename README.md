@@ -16,16 +16,12 @@ This customized [Linux Deploy](https://play.google.com/store/apps/details?id=ru.
 
 - Open web browser on device and download+install the two APKs below.  You can also download these from the Play Store if you prefer:
 
-  - **https://github.com/MrBIMC/SELinuxModeChanger/releases/download/11.0/app-release-v11.apk**
   - **https://github.com/meefik/linuxdeploy/releases/download/2.6.0/linuxdeploy-2.6.0-259.apk**
 
 -  Download the Pi-hole for Android disk image: (**v1.2 / Sept 14, 2021**)
 
    - **http://desktopecho.com/p4a12.tar.gz** (MD5: e5b396d17b8dcf844962284aeabfa662)
 
-- Restart Phone (This is **REQUIRED!**)
-
-- Open **SElinux Mode Changer**:  Set to **Permissive** and **Automatically Start on Boot**
 - Open **Linux Deploy** and change ONLY these settings:
      -  Open Properties Menu (Bottom Right)
      -  Distribution: **rootfs.tar**
@@ -40,13 +36,13 @@ This customized [Linux Deploy](https://play.google.com/store/apps/details?id=ru.
         `````[HH:mm:ss] >>> :: Configuring core/launchroot ...`````
         
         `````[HH:mm:ss] >>> deploy`````
-    -  If you see an errror message in Linux Deploy, you probably didn't enter the location of **p4a12.tar.gz** correctly.  **You need to fix this before you can continue.**
+    -  If you see an errror message in the Linux Deploy console, you probably didn't enter the location of **p4a12.tar.gz** correctly.  **You need to fix this before you can continue.**
           
  - Open the 'Hamburger menu' (Three dashes at top left) and touch **Settings**
     -  Place checkmark on **Lock Wi-Fi**
     -  Place checkmark on **Autostart**
     
-Touch the **[ > START ]** button and confirm when prompted. 
+Touch the **[ > START ]** button and confirm. 
 
 -----------------------------------------------------------
 **INSTALLATION COMPLETE - PI-HOLE IS RUNNING ON YOUR ANDROID DEVICE!**
@@ -68,4 +64,4 @@ When a Pi-hole instance starts up, the default setting is to let it automagicall
 
 Alternatively, set a static assignment by commenting-out two lines in ```/etc/rc.local``` (You will see which ones when you open the file in an editor.)  After the lines are commented out with a hash "#" you can manually add your IP, subnet and interface name to ```/etc/pihole/setupVars.conf```
 
-The Pi-hole instance behaves like it is running on a 'real' Raspberry-Pi or a standard PC.  Consult the extensive documentation online to learn how to fully leverage Pi-hole's functionality.
+The Pi-hole instance on Android otherwise behaves like it is running on a 'real' Raspberry-Pi or a standard PC.  Consult the extensive documentation online to learn how to fully leverage Pi-hole's functionality.
