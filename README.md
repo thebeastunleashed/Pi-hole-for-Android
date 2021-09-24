@@ -16,7 +16,7 @@ This customized [Linux Deploy](https://play.google.com/store/apps/details?id=ru.
 
 **Instructions:**
 
-- Open web browser on device and download+install the two APKs below.  You can also download these from the Play Store if you prefer:
+- Open web browser on device and download+install the Linux Deploy APK.  You can also download this from the Play Store if preferred:
 
   - **https://github.com/meefik/linuxdeploy/releases/download/2.6.0/linuxdeploy-2.6.0-259.apk**
 
