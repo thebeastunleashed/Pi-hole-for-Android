@@ -3,6 +3,8 @@
 
 ![IMG_2229](https://user-images.githubusercontent.com/33142753/133272103-28c6eba3-d1f7-4e29-9c5b-7d96d9f94e9e.jpg)
 
+Note: There is no endorsement or partnership between this page and [Pi-hole© LLC](https://pi-hole.net/). They deserve [your support](https://pi-hole.net/donate/) if you find this useful.
+
 Pi-hole is a Linux network-level advertisement and Internet tracker blocking application which acts as a DNS sinkhole intended for use on a private network. It is designed for low-power embedded devices with network capability, most well-known being the Raspberry Pi.
 
 This customized [Linux Deploy](https://play.google.com/store/apps/details?id=ru.meefik.linuxdeploy&hl=en_US&gl=US) image works on any rooted Android device with an ARMv7 class (or newer) CPU.  This typically includes any devices made in the past 10+ years. Form factor is not important; it could be a phone, tablet, HDMI stick or **any device running Android**.
